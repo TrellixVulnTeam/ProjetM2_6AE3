@@ -1,0 +1,55 @@
+
+.main {
+    position:absolute;
+    left: 40%;
+    top: 15%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+/* tableau contenant l'authentification */
+.authentication {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+/* Logo sur l'authentification */
+.logo {
+    width: 180px;
+    height: 155px;
+    position: relative;
+    left: 10%;
+}
+
+/* Titre Trombinoscope */
+.Title {
+    font-family: Rockwell Condensed;
+    font-size: 32px;
+    text-shadow: 1px 1px 2px grey;
+    position: relative;
+    left: 10%;
+}
+
+/* Icône authentification */
+.icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+/* Bouton Se connecter */
+.login {
+    background-color: rgb(3, 3, 43);
+    color: white;
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    position: absolute;
+    left: 26%;
+}
