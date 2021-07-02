@@ -1,0 +1,25 @@
+Figure 1: Ecran d'authentification
+Figure 2: Page d'accueil (première page de la page d’exploration de Trombinoscope)
+Figure 3: Affichage de chaque département
+Figure 4: Présentation du profil d'un associé
+Figure 5: Présentation du profil d'un consultant
+Figure 6: Présentation de l'interface pour la RHI
+Figure 7: Présentation de la page d'ajout d'un associé
+Figure 8: Présentation de la page d'ajout d'un consultant
+Figure 9: Présentation de la modification d'un associé
+Figure 10: Présentation de la page de modification d'un consultant
+Figure 11: Présentation de la page de suppression d'un personnel
+Figure 12: Présentation de la page de gestion d'habilitation
+Figure 13 : Présentation de la page d'ajout de nouvelle demande d'habilitation
+Figure 14: Liste des habilités
+Figure 15 :  Liste des personnes à désactiver
+Figure 16 : Demande d'authentification pour procéder à la désactivation
+Figure 17 : Liste des déshabilités
+Figure 18 : Présentation de l'archive
+Figure 19: Présentation de la suite de la page d'ajout de la nouvelle demande
+Figure 20: Présentation des options IT
+Figure 21: Présentation de la notification IT
+Figure 22: Présentation de la page d'historique info
+Figure 23: Représentation du procédé de désactivation
+
+

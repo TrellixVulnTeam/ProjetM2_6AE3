@@ -1,0 +1,10 @@
+Questions / Réponses
+
+Page 16 Question n°1 : Il s'agit d'un pop-up ou d'un affichage sur la section d'affichage des personnes?
+J'ai songé à la redirection vers une toute autre page et non d'un pop-up ni affichage sur la section d'affichage des personnes.
+
+Page 20 Question n°2 : Il s'agit d'un pop-up ou d'un affichage sur la section d'affichage des personnes?
+Il s'agit de la redirection vers la page de modification et non d'un pop-up ni affichage sur la section d'affichage des personnes.
+
+Page 25 Question°3 : C'est quoi le sens de la phrase?
+Cela n'a aucun sens en effet mais ce qui m'est passé par la tête c'est qu'une demande d'habilitation est rattaché à un personnel. Donc avant de pouvoir ajouter une demande d'habilitation, il faut créer le profil d'un personnel. 

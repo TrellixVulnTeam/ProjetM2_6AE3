@@ -1,1 +1,14 @@
 ******Django****** 12.05
+
+https://medium.com/arriendoasegurado/generating-microsoft-word-documents-with-python-62dd0b21615d
+
+
+https://towardsdatascience.com/generating-automated-word-documents-with-python-d258346e1b45
+
+ ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "(&(samaccountname=eratsimaniva)(userAccountControl=514))"
+ ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "(&(samaccountname=eratsimaniva)(!(userAccountControl=514)))"
+ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "samaccountname=rrandrianarison"
+ ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "samaccountname=eratsimaniva"
+ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "objectclass=group"
+ldapsearch -x -b dc=fthmmada,dc=mg -H 192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "objectclass=group"
+
