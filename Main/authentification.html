@@ -7,13 +7,17 @@
 
             <!-- Link to authentification.css -->
             <link href="css/authentification.css" rel="stylesheet" />
+
+            <!-- Bootstrap -->
+            <link href="css/bootstrap.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         </head>
 
         <body>
             <div class="main">
                 <table class="authentication">
                     <tr>
-                        <td> <img class="logo" src="img/LogoFTHM.png"> </td>
+                        <td> <img class="logo" src="img/Logo FTHM (2).png"> </td>
                     </tr>
                     <tr>
                         <td> <p class="Title"> Trombinoscope </p></td>
@@ -27,7 +31,12 @@
                     <tr>
                         <td> 
                          <img class="icon" src="img/password.png"> 
-                         <input placeholder="Mot de passe"> 
+                         <input type="password" id="pwd" placeholder="Mot de passe"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" onclick="pwdFunction()"> Afficher le mot de passe
                         </td>
                     </tr>
                     <tr>
@@ -35,6 +44,25 @@
                     </tr>
                 </table>
             </div>
+            
+            <!-- input example 
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            </div> -->
+
+        <!-- Script pwd -->    
+        <script>
+            function pwdFunction() {
+              var x = document.getElementById("pwd");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+        </script>
+
         </body>
         
     </html>
