@@ -1,8 +1,9 @@
 
 .main {
-    position:absolute;
-    left: 40%;
-    top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
     border: 1px solid grey;
     border-radius: 10px;
     width: 300px;
@@ -19,7 +20,7 @@
 /* Logo sur l'authentification */
 .logo {
     width: 180px;
-    height: 155px;
+    height: 159px;
     position: relative;
     left: 10%;
 }
@@ -43,13 +44,15 @@
 
 /* Bouton Se connecter */
 .login {
-    background-color: rgb(3, 3, 43);
+    background-color: #003d6b;
     color: white;
+    font-weight: bold;
     width: 150px;
     height: 25px;
     border: none;
     border-radius: 7px;
     margin-top: 10px;
-    position: absolute;
-    left: 26%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
