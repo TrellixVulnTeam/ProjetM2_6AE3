@@ -66,3 +66,27 @@ li a:hover {
     width: 100px;
     height: 110px;
 }
+
+/* search bar */
+.search-container {
+    float: right;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 13px;
+    border: 1px thin #003d6b;
+  }
+  
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }

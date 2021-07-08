@@ -3,6 +3,7 @@
         
          <!-- Link to authentification.css -->
          <link href="css/index.css" rel="stylesheet" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
          <!-- Bootstrap 
          <link href="css/bootstrap.css" rel="stylesheet">
@@ -97,13 +98,15 @@
 
                 <!-- Section d'exploration -->
                     <div class="col2">
-                        <table>
-                            <tr>
-                                <td> <img class="logo" src="img/Logo FTHM (2).png"> </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </table>
+                                        <img class="logo" src="img/Logo FTHM (2).png"> 
+                                
+                                        <div class="search-container">
+                                            <form action="/action_page.php">
+                                            <input type="text" placeholder="Rechercher.." name="search">
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                
                     </div>           
             </div>
     </body>
