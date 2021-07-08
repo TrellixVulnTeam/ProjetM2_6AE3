@@ -1,3 +1,8 @@
+/* body properties */
+body {
+    margin: 0;
+}
+
 /* Section de la page entière */
 .container {
     width: 100%;
@@ -12,22 +17,52 @@
     margin: 0;
 }
 
-/* Menu depart */
+/* Menu depart -- 1ère colonne */
 .col1 {
-    width: 29%;
+    width: 25%;
     height: auto;
     background-color: #003d6b;
-    color: white;
 }
 
-/* Link */
-li {
-    text-decoration: none;
-}
-
-/* Section d'exploration */
-.col2 {
-    border: 1px solid orange;
+/* menu style */
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
     width: 70%;
+}
+
+li {
+    margin: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-weight: bold;
+    font-family: 'Calibri';
+}
+
+li a:hover {
+    background-color: rgb(238, 231, 231);
+    color: black;
+  }
+
+
+/* Section d'exploration -- 2ème colonne */
+.col2 {
+    border: 1px solid #a6b0b1;
+    width: 75%;
     height: auto;
+}
+
+/* logo FTHM dans la section */
+.logo {
+    width: 100px;
+    height: 110px;
 }
