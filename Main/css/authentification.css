@@ -7,20 +7,20 @@
     border: 1px solid grey;
     border-radius: 10px;
     width: 300px;
-    height: 400px;
+    height: 450px;
     
 }
 
 /* tableau contenant l'authentification */
 .authentication {
-    margin-left: 15%;
+    margin-left: 17%;
     margin-top: 10%;
 }
 
 /* Logo sur l'authentification */
 .logo {
     width: 180px;
-    height: 159px;
+    height: 160px;
     position: relative;
     left: 10%;
 }
@@ -42,6 +42,19 @@
     top: 5px;
 }
 
+/* input login */
+input {
+    padding: 6px;
+    margin-top: 8px;
+}
+
+/* Afficher le mot de passe */
+.affpwd {
+    font-size: small;
+    margin-top: 5px;
+
+}
+
 /* Bouton Se connecter */
 .login {
     background-color: #003d6b;
@@ -55,6 +68,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .login:hover {

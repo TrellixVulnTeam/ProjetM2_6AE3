@@ -70,6 +70,7 @@ li a:hover {
 /* search bar */
 .search-container {
     float: right;
+    display: flex;
 }
 
 input[type=text] {
@@ -90,3 +91,9 @@ input[type=text] {
     border: none;
     cursor: pointer;
   }
+
+.logout {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px ;
+}
