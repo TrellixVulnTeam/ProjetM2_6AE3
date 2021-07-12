@@ -97,3 +97,44 @@ input[type=text] {
     height: 40px;
     margin-top: 5px ;
 }
+
+/* Section personne -- ligne associé */
+.photo {
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+table {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+.NomPersonnel {
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Fonction {
+    font-family: 'Calibri';
+}
+
+p {
+    margin :0;
+}
+
+.mail {
+    width: 32px;
+    height: 20px;
+    padding-top: 5pxs;
+}
+.phone {
+    width: 20px;
+    height: 20px; 
+}
