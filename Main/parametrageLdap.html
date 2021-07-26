@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <!-- Link to ListePersonnel.css -->
+        <link href="css/parametrage.css" rel="stylesheet" />
+        <link href="css/bootstrap.css" rel="stylesheet" /> 
+    </head>
+
+    <body>
+            <div class="topnav">
+                <a href="index.html"><img class="logo" src="img/Logo FTHM (2).png"></a>
+                <p class="title"> Paramétrages </p>
+            </div>
+
+            <div class="linknav">
+                <ul>
+                    <li>
+                        <a class="button" href="parametrageMail.html"> Mail </a>
+                    </li>
+                    <li>
+                        <a class="button" href="parametrageLdap.html"> LDAP </a>
+                    </li>
+                    <li>
+                        <a class="button" href="parametrageGroup.html"> Groupes </a>
+                    </li>
+                    <li>
+                        <a class="button" href="parametrageDepart.html"> Département </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="board1">
+                <form>
+                    <div class="form-group">
+                        <label for="filtreLdpap"> Filtre LDAP: </label>
+                        <input type="text" id="filtreLdpap">
+                        <button class="buttonLdap"> Effectuer </button> <br>
+                        <label for="userTest"> Utilisateur à tester: </label>
+                        <input type="text" id="userTest"> 
+                        <button class="buttonLdap">Effectuer un test</button> <br>
+                    </div>
+                </form>
+            </div>
+
+            <div class="board2">
+                <div class="event">                
+                    <button class="buttonEvent">Evènements</button>
+                </div>
+            </div>
+    </body>
+</html>

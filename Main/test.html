@@ -1,42 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
-li{
-	margin:10px;
-	border: 1px solid black;
-}
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-</style>
-</head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/w3.css"> 
 <body>
 
-<h2>Vertical Navigation Bar</h2>
+<style>
+  .profil {
+    background-color: #003d6b;
+  }
+  p {
+    margin: 0;
+  }
+</style>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">About</a></li>
-  <li><a href="#contact">Setting</a></li>
-  <li><a href="#about">Logout</a></li>
-</ul>
+<div class="w3-container">
+  <h2>Profil</h2>
+  <img src="img/A2.png" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">
 
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+          <div class="profil">
+            <img src="img/A2.png">
+            <p>Xavier Michel</p>
+            <p>Associé</p>
+            <p>Dépratement à sa charge: INFO AMOA QUALITE BPOCOMPTA BPORH AUDIT</p>
+            <p>Fonction: Managing Director</p>
+            <p>Mail: xmichel@fthmconsulting.com</p>
+            <p>Numéro: 032 11 631 93 / 034 05 631 93</p>
+            <p>Cursus: Depuis 09/2009: Managing Director Chez FTHM Consulting</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  ul#menu li {
+    display:inline;
+  }
+  </style>
+
+  
+  <h2>Horizontal List</h2>
+  
+  <ul id="menu">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>PHP</li>
+  </ul>  
+  
+
+       
 </body>
 </html>

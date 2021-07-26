@@ -1,0 +1,68 @@
+/* body properties */
+body {
+    margin: 0;
+}
+
+/* ----------------------------------**-----------------------------*/
+/* topnav */
+.topnav {
+    display: flex;
+}
+/* logo FTHM dans topnav */
+.logo {
+    width: 100px;
+    height: 110px;
+}
+/* Grand titre liste personnel */
+.title {
+    font-size: 50px;
+    font-family: 'Calibri';
+    margin-left: 1%;
+    margin-top: 40px;
+}
+
+/* --------------------------- link nav -------------------------- */
+.linknav {
+    margin-top: 60px;
+}
+.linknav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;   
+}
+.linknav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.button {
+    background-color: #003d6b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ---------------------------board 1----------------------------- */
+.board1 {
+    width: 70%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+form {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.form-group {
+    padding: 25px;
+}
+.buttonTest {
+    margin-bottom: 4%;
+    margin-left: 39%;
+}
+
+/* -------------------- parametrage Group - filtred user --------- */
+.filtredUser {
+    height:auto;
+    border: 1px solid black;
+    margin-right: 2%;
+}
