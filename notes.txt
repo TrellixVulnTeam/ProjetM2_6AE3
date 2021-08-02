@@ -11,4 +11,7 @@ ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=u
  ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "samaccountname=eratsimaniva"
 ldapsearch -x -b dc=fthmmada,dc=mg -H ldap://192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "objectclass=group"
 ldapsearch -x -b dc=fthmmada,dc=mg -H 192.168.1.9 -D cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg -W "objectclass=group"
+simple@mx2:~$ ldapsearch -v -x -D "cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg" -b "dc=fthmmada,dc=mg" -H "ldap://192.168.1.9" "cn=amoa"
+
+$ sudo wbinfo -g | grep bporh
 
