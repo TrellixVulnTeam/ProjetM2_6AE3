@@ -15,3 +15,12 @@ simple@mx2:~$ ldapsearch -v -x -D "cn=rrasoamahefa,cn=users,dc=fthmmada,dc=mg" -
 
 $ sudo wbinfo -g | grep bporh
 
+
+<link href="{{ url_for('static', filename= 'css/index.css')}}" rel="stylesheet" />
+<img src="{{url_for('static', filename='img/Logo.png')}}">
+
+export GIT_SSL_NO_VERIFY=1
+
+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
+
+mailto:parcours.gb.eni@gmail.com

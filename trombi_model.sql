@@ -178,9 +178,9 @@ CREATE TABLE `sauvegarde_mail` (
 -- Structure de la table `utilisateur`
 --
 
-CREATE TABLE `utilisateur` (
-  `Utilisateur_Nom` varchar(30) DEFAULT NULL,
-  `MotDePasse` varchar(20) DEFAULT NULL
+CREATE TABLE `users` (
+  `username` varchar(30) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
